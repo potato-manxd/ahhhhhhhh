@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="stylesheet" href="master.css" type="text/css" media="all" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body>
+    <div class="attribution">
+        <div class="container">
+            <header>
+                <h1>Learn to code by watching others</h1>
+                <p>
+                    See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+                    but understanding how developers think is invaluable.
+                </p>
+            </header>
+            <div class="ahh">
+                <h2>Try it free 7 days <span>then $20/mo. thereafter</span>
+                </h2>
+            </div>
+            <section>
+                <form action="" method="get" accept-charset="utf-8">
+                    <input placeholder="First Name" type="text" name="fn" id="fn" value="" />
+                    <img class="e" src="icon-error.svg" alt="" />
+                    <p class="tt">firstname cant be empty</p>
+                    <input placeholder="last Name" type="text" name="ln" id="ln" value="" />
+                    <img class="e" src="icon-error.svg" alt="" />
+                    <p class="tt">lasttname cant be empty</p>
+
+                    <input placeholder="Email Address" type="text" name="e" id="e" value="" />
+                    <img class="e" src="icon-error.svg" alt="" />
+                    <p class="tt">this is not an e-mail</p>
+
+                    <input placeholder="Password" type="text" name="p" id="p" value="" />
+                    <img class="e" src="icon-error.svg" alt="" />
+                    <p class="tt">password cant be empty</p>
+
+                    <button type="submit">claim your free trail</button>
+                </form>
+                <p>
+                    By clicking the button, you are agreeing to our Terms and Services
+                </p>
+            </section>
+
+            <footer>
+                <p class="attribution">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                    Coded by <a href="#">Your Name Here</a>.
+                </p>
+            </footer>
+
+            <script src="main.js" type="text/javascript" charset="utf-8"></script>
+        </div>
+    </div>
+</body>
+</html>
