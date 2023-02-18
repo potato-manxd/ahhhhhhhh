@@ -81,7 +81,7 @@ button{
         display: inline-block;
         padding: 0;
         font-size: 20px;
-        transform: translatey(40vh);
+        transform: translatey(20vh);
     }
     
     .ahh{
@@ -90,13 +90,13 @@ button{
         padding: 5px;
         height: 40px;
         margin-left: 160px;
-        transform: translatey(-40vh);
+        transform: translatey(-20vh);
     }
     
     section{
         width: 40%;
         display: inline-block;
-        transform: translate(300px, -40vh)
+        transform: translate(300px, -20vh)
     }
     footer{
         display: block;
